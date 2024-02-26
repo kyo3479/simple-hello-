@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+html{
+    overscroll-behavior: none;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+#text1{
+    color: white;
+    font-family: "Pixelify Sans", sans-serif;
+    padding-top: 800px;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    padding-right: 18px;
+    opacity: 0%;
+}
+#verline1{
+    border-left: 1px solid white;
+    transform: translateY(-900px);
+    height: 1000px;
+    
+}
+#verline2{
+    border-left: 1px solid white;
+    transform: translateY(-900px);
+    height: 1000px;
+    
+}
